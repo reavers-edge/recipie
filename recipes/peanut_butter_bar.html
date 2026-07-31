@@ -4,58 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Recipe Index</title>
-    <style>
-body {
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    color: black;
-    margin: 0;
-    padding-left: 10px;
-    padding-right: 5px;}
-.ingredient-list {
-  list-style: none;
-  padding: 0;
-  width: 250px;}
-
-.ingredient-list li {
-  padding: 8px 12px;}
-
-.ingredients li:nth-child(2),
-.ingredient-list li:nth-child(3),
-.ingredient-list li:nth-child(4) {
-  border-left: 2px solid #007acc;
-  border-right: 2px solid #007acc;
-  background-color: #f0f8ff;
-}
-
-/* Top cap on item 2 */
-.ingredient-list li:nth-child(2) {
-  border-top: 2px solid #007acc;
-}
-
-/* Bottom cap on item 4 */
-.ingredient-list li:nth-child(4) {
-  border-bottom: 2px solid #007acc;
-}
-    </style>
+  <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
-
     <header>
-        <h1>Almond Roca Bar</h1>
+        <h1>Peanut Butter Bar</h1>
         <a href="../index.html">Back</a>
     </header>
 <hr>
     <main>
-<ul class="ingredients">
-  <li>2 cups Flour</li>
-  <li>1 tsp Baking Powder</li>
-  <li>1/2 tsp Salt</li>
-  <li>1 cup Sugar</li>
-  <li>2 Eggs</li>
+<div class="recipe-container">
+<section class="ingredients">
+<h2> Ingredients</h2>
+<ul class="ingredient-list">
+    <span class="list-bold">Bar:</span>
+    <li><span class="amount">1 cup</span> peanut butter</li>
+    <li><span class="amount">1/4 cup</span> honey</li>
+    <li><span class="amount">3/4 cup</span> flour</li>
+   <span class="list-bold">Topping:</span>
+    <li><span class="amount">1 cup</span> chocolate</li>
+    <li><span class="amount">1/2 cup</span> peanut butter</li>
 </ul>
+<hr>
+</section>
+<hr>
+<section class="instructions">
+<h3> Instructions</h3>
+<ol class="instructions">
+    <span class="instructions-bold">Bar</span>
+    <li class="instruction">In a medium bowl, mix together <b>peanut butter</b>, <b>honey</b>, and <b>flour</b> until well combined.</li>
+    <li class="instruction">Press the mixture into a greased 8x8 inch pan.</li>
+    <span class="instructions-bold">Topping:</span>
+    <li class="instruction">In a microwave-safe bowl, melt <b>chocolate</b> and <b>peanut butter</b> together, stirring every 30 seconds until smooth.</li>
+    <li class="instruction">Pour the chocolate mixture over the peanut butter layer and spread evenly.</li>
+    <li class="instruction">Refrigerate for at least 1 hour or until firm. Cut into bars and serve. Store in an airtight container in the refrigerator for up to 1 week.</li>
+</ol>
+
+
+<hr>
 </section>
 </div>
     </main>

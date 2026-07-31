@@ -24,6 +24,13 @@ body {
         padding-right: 10px;
         margin-top: -14px;
         text-decoration: none;}
+    .list-bold {
+        font-weight: 600;
+        height: 50px;
+        display: block;
+        margin-bottom: -25px; margin-top: 20px;}
+    .instructions-bold {
+        font-weight: 600;}
     ul.ingredients { 
         line-height: 1.7;
         padding-left: 30px;}
@@ -31,15 +38,6 @@ body {
             width: 250px;}
         .ingredient-list li {
             padding: 8px 12px;}
-            .ingredient-list li:nth-child(2),
-            .ingredient-list li:nth-child(3),
-            .ingredient-list li:nth-child(4) {
-                border-left: 2px solid #007acc; border-right: 2px solid #007acc;
-                background-color: #f9fcff;}
-            .ingredient-list li:nth-child(2) {
-                border-top: 2px solid #007acc;}
-            .ingredient-list li:nth-child(4) {
-                border-bottom: 2px solid #007acc;}
     ol.instructions{
             line-height: 1.7;}
         li.instruction {
