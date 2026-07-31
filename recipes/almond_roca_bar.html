@@ -8,6 +8,7 @@
     body {
             font-family: Helvetica, sans-serif;
             font-size: 18px;
+            font-weight: 300;
             color: black;
             margin: 0;
             padding-left: 10px;
@@ -25,20 +26,22 @@
         h3 {
             font-size: 1.7rem;
             color: #ff47d4;}
+        .amount {
+            color: #a97a99;}
         a {
             color: #5d0093;
             font-size: 1.5rem;
             display: block;
             text-align: right;
             padding-right: 10px;
-            margin-top: -15px;
+            margin-top: -14px;
             text-decoration: none;}
     ul.ingredients { 
             line-height: 1.7;
             padding-left: 30px;}
     ol.instructions{
             line-height: 1.7;}
-        li.instruction {
+        li instructions{
             padding-bottom: 20px;}
     .recipe-container {
         display: flex;
@@ -46,7 +49,7 @@
         gap: 10px;}
     .ingredients {
         margin-top: -10px;
-        flex: 1 1 15px;}
+        flex: 1 1 100px;}
     .instructions {
         margin-top: -15px;
         flex: 2 1 300px;}
@@ -65,12 +68,12 @@
 <section class="ingredients">
 <h2> Ingredients</h2>
  <ul class="ingredients">
-    <li>1 cup sugar
-    <li>1/2 cup butter</li>
-    <li>1/4 cup water</li>
-    <li>1 cup almonds, chopped</li>
-    <li>1/2 teaspoon vanilla extract</li>
-    <li>1/4 teaspoon salt</li>
+    <li><span class="amount">1 cup</span> sugar</li>
+    <li><span class="amount">1/2 cup</span> butter</li>
+    <li><span class="amount">1/4 cup</span> water</li>
+    <li><span class="amount">1 cup</span> almonds, chopped</li>
+    <li><span class="amount">1/2 teaspoon</span> vanilla extract</li>
+    <li><span class="amount">1/4 teaspoon</span> salt</li>
     <li>1 cup semisweet chocolate chips</li>
 </ul>
 <hr>
@@ -84,7 +87,7 @@
     <li class="instruction">Remove from heat and stir in chopped almonds, vanilla extract, and salt. Pour the mixture onto the prepared baking sheet and spread it evenly.</li>
     <li class="instruction">Bake for 10-12 minutes or until golden brown. Remove from oven and let it cool completely.</li>
     <li class="instruction">Once cooled, melt the chocolate chips in a microwave-safe bowl or using a double boiler. Spread the melted chocolate over the almond roca layer.</li>
-    <li class="instruction">Allow the chocolate to set before cutting into bars. Store in an airtight container.</li>
+    <li>Allow the chocolate to set before cutting into bars. Store in an airtight container.</li>
 </ol>
 </section>
 </div>
