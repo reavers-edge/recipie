@@ -7,20 +7,24 @@
     <style>
     body {
             font-family: Helvetica, sans-serif;
-            font-size: 16px;
+            font-size: 18px;
             color: black;
-            margin: 0;
-            padding-left: 10px;
-            padding-right: 5px;}
+                margin: 0;
+                padding-left: 10px;
+                padding-right: 5px;}
         h1, h2, h3, body {
             font-family: Helvetica, sans-serif;}
         h1 {
             font-size: 2.2rem;
             color:black;
-            border-bottom: 2px solid #000000;
-            padding-bottom: 5px;}
+                border-bottom: 4px solid #000000;
+                padding-bottom: 3px;
+            margin-bottom: 10px;}
         h2 {
-            font-size: 1.5rem;}
+            font-size: 1.8rem;
+                width: 30%;
+                border-bottom: 2px solid #000000;
+            padding-bottom: 3px;}
         h2:nth-of-type(1) {
             color: #2b6cb0;}
         h2:nth-of-type(2) {
@@ -28,46 +32,46 @@
         h2:nth-of-type(3) {
             color: #e53e3e;}
         h3 {
-            font-size: 1.1rem;}
+            font-size: 1.4rem;
+                width: 20%;
+                border-bottom: 1.5px solid #000000;
+            padding-bottom: 2px;}
         a {
             color: #930000;
             text-decoration: none;}
     .box {
-            border: 2px solid #ed8936;
-            padding: 10px;
-            border-radius: 3px;
-            background-color: #fffaf0;}
+            border: 2px solid #ed9136;
+            border-radius: 8px;
+            background-color: #fba904d7;}
         .american {
-            border: 2px solid #bd3bec;
-            padding: 10px;
             border-radius: 8px;
             background-color: #f1e0f5;}
         .to-make {
-            border: 2px solid #49e966;
-            padding: 10px;
             border-radius: 8px;
             background-color: #e2f7e4;}
     ul.horizontal-list { 
             display: flex;
             width: 95%;
-            flex-wrap: wrap;
-            justify-content:space-between;
-            box-sizing: border-box;
-            list-style-type: none;
-            margin: 0;
+                flex-wrap: wrap;
+                justify-content:space-between;
+                box-sizing: border-box;
+                list-style-type: none;
+            margin: 0px;
             gap: 30px;
-            padding-left: 10px; padding-right: 10px; padding-top: 0px; padding-bottom: 0px;}
+            padding-left: 10px; padding-right: 10px; padding-top: 0px; padding-bottom: 10px;}
         ul.horizontal-list li a {
             color: #333;
+                border: 2px solid #689db5;
+                padding: 10px;
+                border-radius: 8px;
+                background-color: #5dc6e01b;
             text-decoration: none;
             min-width: 100px; 
             text-align: center;
             display: inline-block;
             line-height: 1.5;
-            border-bottom: 2px solid #0066cc;
-            padding-bottom: 6px;
-            padding-left: 8px;
-            padding-right: 8px;}
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 6px; padding-left: 8px; padding-right: 8px;}
     </style>
 </head>
 
@@ -81,7 +85,7 @@
         <h2>Sweet</h2> 
         <h3>Chocolate</h3>
         <ul class="horizontal-list">
-            <div class="box"><li><a href="/recipes/almond_roca_bar.html">Almond roca bar</a></li></div>
+            <div class="box"><li><a href="recipes/almond_roca_bar.html">Almond roca bar</a></li></div>
             <li><a href="../recipes/almond_roca_bar.html">Naniamo bars</a></li>
             <li><a href="recipes/almond_roca_bar.html">Peanut butter bar</a></li>
             <li><a href="recipes/peanut-butter-cups.html">Peanut butter cups</a></li>
@@ -93,16 +97,55 @@
             </ul>
         <h3>Cookies</h3>
         <ul class="horizontal-list">
-            <li>
-                <a href="recipes/chocolate-chip-cookies.html">Chocolate Chip</a>
-            </li>
-            <li>
-                <a href="recipes/oatmeal-raisin-cookies.html">Oatmeal Raisin</a>
-            </li>
+            <div class="box"><li><a href="recipes/almond_roca_bar.html">Almond roca bar</a></li></div>
+            <li><a href="../recipes/almond_roca_bar.html">Naniamo bars</a></li>
+            <li><a href="recipes/almond_roca_bar.html">Peanut butter bar</a></li>
+            <li><a href="recipes/peanut-butter-cups.html">Peanut butter cups</a></li>
+            <li><a href="recipes/peanut-butter-cornflake-tiffin.html">Peanut butter & cornflake tiffin</a></li>
+            <li><a href="recipes/almond-cream-cheese-bar.html">Almond cream cheese bar</a></li>
+            <div class="to-make"><li><a href="recipes/eatmore-bar.html">Eatmore bar</a></li></div>
+            <div class="american"><li><a href="recipes/magic-cookie-bars.html">Magic cookie bars</a></li></div>
+            <div class="american"><li><a href="recipes/noodle-power-cookies.html">Noodle power cookies</a></li></div>
         </ul>
     <hr>
         <h2>Savoryss</h2>
+        <ul class="horizontal-list">
+            <div class="box"><li><a href="recipes/almond_roca_bar.html">Almond roca bar</a></li></div>
+            <li><a href="../recipes/almond_roca_bar.html">Naniamo bars</a></li>
+            <li><a href="recipes/almond_roca_bar.html">Peanut butter bar</a></li>
+            <li><a href="recipes/peanut-butter-cups.html">Peanut butter cups</a></li>
+            <li><a href="recipes/peanut-butter-cornflake-tiffin.html">Peanut butter & cornflake tiffin</a></li>
+            <li><a href="recipes/almond-cream-cheese-bar.html">Almond cream cheese bar</a></li>
+            <div class="to-make"><li><a href="recipes/eatmore-bar.html">Eatmore bar</a></li></div>
+            <div class="american"><li><a href="recipes/magic-cookie-bars.html">Magic cookie bars</a></li></div>
+            <div class="american"><li><a href="recipes/noodle-power-cookies.html">Noodle power cookies</a></li></div>
+            </ul>
         <h3>Biscuits</h3>
+        <ul class="horizontal-list">
+            <div class="box"><li><a href="recipes/almond_roca_bar.html">Almond roca bar</a></li></div>
+            <li><a href="../recipes/almond_roca_bar.html">Naniamo bars</a></li>
+            <li><a href="recipes/almond_roca_bar.html">Peanut butter bar</a></li>
+            <li><a href="recipes/peanut-butter-cups.html">Peanut butter cups</a></li>
+            <li><a href="recipes/peanut-butter-cornflake-tiffin.html">Peanut butter & cornflake tiffin</a></li>
+            <li><a href="recipes/almond-cream-cheese-bar.html">Almond cream cheese bar</a></li>
+            <div class="to-make"><li><a href="recipes/eatmore-bar.html">Eatmore bar</a></li></div>
+            <div class="american"><li><a href="recipes/magic-cookie-bars.html">Magic cookie bars</a></li></div>
+            <div class="american"><li><a href="recipes/noodle-power-cookies.html">Noodle power cookies</a></li></div>
+            </ul>
+        <h3>Cookies</h3>
+        <ul class="horizontal-list">
+            <div class="box"><li><a href="recipes/almond_roca_bar.html">Almond roca bar</a></li></div>
+            <li><a href="../recipes/almond_roca_bar.html">Naniamo bars</a></li>
+            <li><a href="recipes/almond_roca_bar.html">Peanut butter bar</a></li>
+            <li><a href="recipes/peanut-butter-cups.html">Peanut butter cups</a></li>
+            <li><a href="recipes/peanut-butter-cornflake-tiffin.html">Peanut butter & cornflake tiffin</a></li>
+            <li><a href="recipes/almond-cream-cheese-bar.html">Almond cream cheese bar</a></li>
+            <div class="to-make"><li><a href="recipes/eatmore-bar.html">Eatmore bar</a></li></div>
+            <div class="american"><li><a href="recipes/magic-cookie-bars.html">Magic cookie bars</a></li></div>
+            <div class="american"><li><a href="recipes/noodle-power-cookies.html">Noodle power cookies</a></li></div>
+            </ul>
+<hr>
+<hr>
     </main>
 </body>
 </html>
