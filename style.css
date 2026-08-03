@@ -29,11 +29,13 @@ body {
         text-decoration: none;}
     .list-bold {
         font-weight: 600;
+        color: #472dc8;
         height: 50px;
         display: block;
         margin-bottom: -25px; margin-top: 20px;}
     .instructions-bold {
-        font-weight: 600;}
+        font-size: 1.25rem; font-weight: 600;
+        color: #8c6986;}
     ul.ingredients { 
         line-height: 1.7;
         padding-left: 30px;}
