@@ -6,8 +6,13 @@
     <title>My Recipe Index</title>
 <style>
 body {
-    background-image: 
-    linear-gradient(rgba(255, 255, 255, .99), rgba(255, 255, 255, 0.1),), 
+   background-image: 
+    linear-gradient(
+      to right, 
+      rgba(255, 255, 255, 1) 0%,     /* 100% Solid White */
+      rgba(255, 255, 255, 0.7)40%,   /* Soft White Fade */
+      rgba(255, 255, 255, 0) 100%    /* Totally Clear (Reveals Image) */
+    ),
     url("seagull_flying.png");
     background-attachment: fixed; background-position: center;
     background-repeat: no-repeat; background-size: cover;
@@ -36,11 +41,11 @@ h2 {
         border-bottom: 2px solid #000000;
     padding-bottom: 3px;}
 h2:nth-of-type(1) {
-    color: #2b6cb0;}
+    color: #ce4242;}
 h2:nth-of-type(2) {
-    color: #805ad5;}
+    color: #60a965;}
 h2:nth-of-type(3) {
-    color: #e53e3e;}
+    color: #e5b329;}
 h3 {
     font-size: 1.5rem;
         width: 40%;
@@ -138,6 +143,8 @@ ul.horizontal-list li a {
         <div class="box"><li><a href="recipes/granola.html">Granola</a></li></div>
     </ul>
 
+<hr>
+
 <h2>Savory</h2>
 <h3>Biscuits</h3>
     <ul class="horizontal-list">
@@ -187,6 +194,14 @@ ul.horizontal-list li a {
         <li><a href="recipes/soy_sauce_sauce.html">Soy Sauce Sauce</a></li>
         <li><a href="recipes/butter_chicken.html">Butter Chicken</a></li>
         <li><a href="recipes/baked_pineapple_teriyaki_chicken.html">Bake pineapple teriyake chicken</a></li>
+     </ul>
+
+<hr>
+
+    <h2>Ingredients</h2>
+     <ul class="horizontal-list">
+        <li><a href="recipes/buttermilk.html">Buttermilk</a></li>
+        <li><a href="recipes/milk.html">Powdered milk</a></li>
      </ul>
 
 <hr>

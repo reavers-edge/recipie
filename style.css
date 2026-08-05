@@ -6,10 +6,10 @@ body {
         margin: 0;
         padding-left: 10px; padding-right: 5px;}
 @media (min-width: 768px) {
-body {
-    font-size: 20px;}}
-    h1, h2, h3, body, a {
-        font-family: Helvetica, sans-serif;}
+    body {
+        font-size: 20px;}}
+h1, h2, h3, body, a {
+    font-family: Helvetica, sans-serif;}
     h1 {
         font-size: 2.2rem; color:black;
         border-bottom: 2px solid #000000;
@@ -21,18 +21,20 @@ body {
         font-size: 1.7rem; font-weight: 400; color: #ff47d4;}
         .amount {
         color: #a97a99;}
-    a {
-        color: #5d0093; font-size: 1.5rem;
-        display: block; text-align: right;
-        padding-right: 10px;
-        margin-top: -14px;
-        text-decoration: none;}
-    .list-bold {
-        font-weight: 600;
-        color: #472dc8;
-        height: 50px;
-        display: block;
-        margin-bottom: -25px; margin-top: 20px;}
+a {
+    color: #5d0093; font-size: 1.5rem;
+    display: block; text-align: right;
+    padding-right: 10px;
+    margin-top: -14px;
+    text-decoration: none;}
+    a.mini {
+        font-size: 18px; color: #6e0096;
+        display: inline-block;}
+.list-bold {
+    font-weight: 600;
+    height: 50px;
+    display: block;
+    margin-bottom: -25px; margin-top: 20px;}
     .instructions-bold {
         font-size: 1.25rem; font-weight: 600;
         color: #8c6986;}
@@ -47,10 +49,10 @@ body {
             line-height: 1.7;}
         li.instruction {
             padding-bottom: 20px;}
-    .recipe-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;}
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;}
     .ingredients {
         margin-top: -10px;
         flex: 1 1 100px;
