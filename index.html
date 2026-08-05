@@ -19,7 +19,15 @@ body {
     margin: 0;}
 @media (min-width: 768px) {
 body {
-    background-image: url("seagull_hatspng.png");}}
+    background-image: 
+        linear-gradient(
+      to right, 
+      rgba(255, 255, 255, 1) 0%,     /* 100% Solid White */
+      rgba(255, 255, 255, 0.7)2%,
+      rgba(255, 255, 255, 0) 30%,   /* Soft White Fade */
+      rgba(255, 255, 255, 0) 100%    /* Totally Clear (Reveals Image) */
+    ),
+    url("seagull_hatspng.png");}}
 body {
     font-family: Helvetica, sans-serif;
     font-size: 18px; font-weight: 600;
