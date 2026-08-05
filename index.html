@@ -63,15 +63,18 @@ a {
     color: #930000;
     text-decoration: none;}
 .box {
-    border: 3px solid #fff700;
+    border: 3px solid #ffbf00d6;
+    padding: 1px;
     border-radius: 8px;}
 .american {
-    border: 3px solid #9300b0;
+    border: 3px solid #ec4a15d5;
+    padding: 1px;
     border-radius: 8px;}
 .to-make {
-    border: 3px solid #08c340;
+    border: 3px solid #08c340d6;
+    padding: 1px;
     border-radius: 8px;}
-ul.horizontal-list { 
+ul.horizontal-list {
     display: flex;
     width: 95%;
         flex-wrap: wrap;
@@ -82,11 +85,12 @@ ul.horizontal-list {
     gap: 30px;
     padding-left: 10px; padding-right: 10px; padding-top: 0px; padding-bottom: 10px;}
 ul.horizontal-list li a {
-    color: #333;
-        border: 1px solid #000000;
+    text-transform: lowercase;
+    color: #000000;
+        border: 1px solid #7e7e7e;
         padding: 10px;
         border-radius: 8px;
-        background-color: #ffffff;
+        background-color: #ffffffdc;
     text-decoration: none;
     min-width: 100px;
     text-align: center;
@@ -94,6 +98,9 @@ ul.horizontal-list li a {
     line-height: 1.5;
     border-bottom: 3px solid #000000;
     padding-bottom: 6px; padding-left: 8px; padding-right: 8px;}
+ul.horizontal-list li a::first-letter {
+  text-transform: uppercase;
+}
 </style>
 </head>
 
@@ -174,9 +181,9 @@ ul.horizontal-list li a {
 
 <h3>Chicken</h3>
     <ul class="horizontal-list">
-        <div class="american"><li><a href="recipes/orange_chicken_traybake.html">Orange Chicken Traybake</a></li></div>
-       <div class="american"> <li><a href="recipes/honey_chilli_chicken.html">Honey Chilli Chicken</a></li></div>
-        <div class="american"><li><a href="recipes/honey_sesame_chicken.html">Honey Sesame Chicken</a></li></div>
+        <div class="box"><li><a href="recipes/orange_chicken_traybake.html">Orange Chicken Traybake</a></li></div>
+       <div class="box"> <li><a href="recipes/honey_chilli_chicken.html">Honey Chilli Chicken</a></li></div>
+        <div class="box"><li><a href="recipes/honey_sesame_chicken.html">Honey Sesame Chicken</a></li></div>
         <li><a href="recipes/chicken_bites_sweet_sour_sauce.html">Chicken Bites with Sweet and Sour Sauce</a></li>
         <li><a href="recipes/chicken_quesadilla.html">Chicken Quesadilla</a></li>
         <li><a href="recipes/chicken_chilli.html">Chicken Chilli</a></li>
@@ -184,7 +191,7 @@ ul.horizontal-list li a {
         <li><a href="recipes/hunters_chicken.html">Hunter's Chicken</a></li>
         <li><a href="recipes/pineapple_chicken.html">Pineapple Chicken</a></li>
         <li><a href="recipes/three_cup_chicken.html">Three Cup Chicken</a></li>
-        <div class="american"><li><a href="recipes/tuscan_chicken.html">Tuscan Chicken</a></li></div>
+        <div class="box"><li><a href="recipes/tuscan_chicken.html">Tuscan Chicken</a></li></div>
         <li><a href="recipes/crispy_chilli_beef_noodle_trybake.html">Crispy Chilli Beef and Noodle Traybake</a></li>
     </ul>
 
@@ -196,9 +203,9 @@ ul.horizontal-list li a {
         <li><a href="recipes/butter_paneer_curry.html">Butter paneer curry</a></li>
         <li><a href="recipes/peanut_chicken_noodles.html">Peanut Chicken Noodles</a></li>
         <li><a href="recipes/jerk_chicken.html">Jerk Chicken</a></li>
-        <div class="american"><li><a href="recipes/beef_stew_and_dumplings.html">Beef stew and dumplings</a></li></div>
-        <div class="american"><li><a href="recipes/ginger_beef.html">Ginger Beef</a></li></div>
-        <div class="american"><li><a href="recipes/prik_nam_pla.html">Prik Nam Pla</a></li></div>
+        <div class="box"><li><a href="recipes/beef_stew_and_dumplings.html">Beef stew and dumplings</a></li></div>
+        <div class="box"><li><a href="recipes/ginger_beef.html">Ginger Beef</a></li></div>
+        <div class="box"><li><a href="recipes/prik_nam_pla.html">Prik Nam Pla</a></li></div>
         <li><a href="recipes/soy_sauce_sauce.html">Soy Sauce Sauce</a></li>
         <li><a href="recipes/butter_chicken.html">Butter Chicken</a></li>
         <li><a href="recipes/baked_pineapple_teriyaki_chicken.html">Bake pineapple teriyake chicken</a></li>
